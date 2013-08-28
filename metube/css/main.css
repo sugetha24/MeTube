@@ -1,0 +1,111 @@
+@CHARSET "UTF-8";
+
+body {
+    background-color: #f0f0f0;
+}
+
+#wrapper {
+    margin: 100px auto;
+    width: 600px;
+}
+
+#message {
+	margin-bottom: 15px;
+}
+
+#waiting {
+    color: #767676;
+    text-align: center;
+}
+
+.success {
+    background: #a5e283;
+    border: #337f09 1px solid;
+    padding: 5px;
+}
+
+.error {
+    background: #ea7e7e;
+    border: #a71010 1px solid;
+    padding: 5px;
+}
+
+/* Form */
+
+#form fieldset {
+    border: none;	
+}
+
+#form legend {
+    font-weight: bold;
+}
+
+#form label {
+    display: inline-block;
+    width: 70px;
+    vertical-align: top;
+    padding-top: 1px;	
+}
+
+#form .text, #form textarea {
+    width: 300px;   
+}
+
+#form textarea {
+    height: 100px;	
+}
+
+#form .required {
+    color: red;
+    font-weight: bold;	
+}
+
+/* Comments */
+
+#comments ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+#comments li {
+    list-style: none;
+}
+
+#comments .commentWrap p {
+    margin: 0px;
+    padding: 0px;	
+}
+
+#comments .userTime {
+    color: #777575;	
+}
+
+#comments li ul {
+    margin: 0px;
+    padding: 0px;	
+}
+
+#comments li ul {
+    border-left: 1px solid #ced0d0;
+}
+
+#comments li li {
+    background: url('../images/connect.gif') no-repeat transparent 0px 25px;
+    padding-left: 25px;
+}
+
+#comments .commentWrap {
+    border: solid 1px #ccc;
+    padding: 10px;
+    margin: 7px 7px 7px 0px;
+    background-color: #f2f2f2;
+}
+
+#comments li li .commentWrap {
+    background-color: #e6e4e4;
+}
+
+#comments p.message {
+    margin-top: 13px;
+    margin-bottom: 15px;
+}
